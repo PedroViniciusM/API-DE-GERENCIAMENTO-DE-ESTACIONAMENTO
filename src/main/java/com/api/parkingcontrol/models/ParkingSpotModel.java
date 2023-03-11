@@ -28,7 +28,8 @@ public class ParkingSpotModel implements Serializable {
     @Column(nullable = false)
     private LocalDateTime registrationDate; //Data do registro
     @Column(nullable = false, length = 130)
-    private String responsibleName; //Nome do responsável
+    private String responsibleName; //Nome do r
+    // esponsável
     @Column(nullable = false, length = 30)
     private String apartment; //Apartamento
     @Column(nullable = false, length = 30)
